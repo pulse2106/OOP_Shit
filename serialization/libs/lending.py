@@ -7,4 +7,4 @@ class Lending:
         self.date = datetime.now()
 
     def __str__(self):
-        return f"{self.book.title} lent to {self.member.name} on {self.date}"
+        return f"{self.book.Title} lent to {self.member.Name} on {self.date}"
