@@ -1,0 +1,15 @@
+
+| Concept                    | Meaning                            |
+| -------------------------- | ---------------------------------- |
+| Public Variable            | Can be accessed directly           |
+| Private Variable (`__var`) | Cannot be accessed directly        |
+| Getter Method              | Used to read private data          |
+| Setter Method              | Used to modify private data safely |
+
+
+With Encapsulation:
+    Balance is hidden (__balance)
+    Balance cannot be changed directly
+    Changes are allowed only through methods (deposit, withdraw)
+    Data is protected from invalid values
+

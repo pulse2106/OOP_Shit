@@ -1,0 +1,34 @@
+
+
+Very Important !!
+
+In Python:
+
+    Same class → Cannot define two methods with same name
+    
+    Derived class → Can redefine method (Overriding)
+
+    Overloading → Must use default values or *args
+
+
+In 
+    def deposit(self, *amounts):
+
+What Does *amounts Mean?
+    “Accept any number of arguments and store them in a tuple.”
+    - The * is called the unpacking operator (or variable-length argument operator).
+
+when you call 
+    acc.deposit(100, 200, 300, 200.350)
+
+function gets it as 
+    amounts = (100, 200, 300, 200.35)
+
+Its a tuple
+    - An ordered collection of values.
+      Not possible to chage after creation
+
+
+Can be access elements of it as
+    print(amounts[0]) 
+    print(amounts[1])  # 500

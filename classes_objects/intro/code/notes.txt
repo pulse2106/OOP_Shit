@@ -1,0 +1,26 @@
+
+Key Notes:
+
+
+| Without Class  | With Class          |
+| -------------- | ------------------- |
+| Many variables | One clean structure |
+| Repeated code  | Reusable blueprint  |
+| Hard to manage | Easy to scale       |
+| Error-prone    | Organized           |
+
+
+
+Without classes:
+
+    Data and behavior are separate
+    Everything must be manually connected
+    More duplication
+    Hard to maintain
+
+With classes:
+
+    Data + behavior are grouped together
+    Less duplication
+    More organized
+    Easier to scale

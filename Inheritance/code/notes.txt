@@ -1,0 +1,44 @@
+
+
+Dog,Cat and Cow inherits Animal class behaviour
+
+Dog(Animal) means:
+
+- Dog inherits from Animal
+- Dog gets eat() automatically
+- Dog overrides make_sound()
+
+With inheritance:
+
+- Shared code is written once
+- Child classes customize behavior
+- Code is cleaner
+- Easier to maintain
+
+
+| Part                      | Meaning                                   |
+| ------------------------- | ----------------------------------------- |
+| `__init__`                | Constructor (runs when object is created) |
+| `self.name`               | Attribute (data of object)                |
+| `make_sound()`            | Method (behavior)                         |
+| `eat()`                   | Method shared by all animals              |
+| Call parent method        | `super().method()`                        |
+
+
+Method Overriding -> The child class replaces the parent’s version.
+
+We call it
+
+Polymorphism (multiple forms):
+    Same method name
+    Different behavior
+    Depending on object type
+    
+
+| Concept           | Meaning                         |
+| ----------------- | ------------------------------- |
+| Base Class        | Parent class                    |
+| Derived Class     | Child class                     |
+| Inheritance       | Reusing parent class            |
+| Method Overriding | Redefining parent method        |
+| Polymorphism      | Same method, different behavior |

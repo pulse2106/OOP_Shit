@@ -1,0 +1,33 @@
+
+
+
+  Inheritance (IS-A)                       | Composition (HAS-A)          
+| ---------------------------------------- | ---------------------------- |
+| Child extends parent                     | Class contains another class |
+| Tight coupling                           | Loose coupling               |
+| Example: SavingsAccount IS-A BankAccount | Customer HAS-A BankAccount   |
+| Uses `class Child(Parent)`               | Uses object inside class     |
+
+
+
+** Use Inheritance when:
+
+    There is a true “is-a” relationship
+
+    Child needs all parent features
+
+    You want polymorphism
+
+** Use Composition when:
+
+    One class just needs to use another class
+
+    You want flexibility
+
+    You want less dependency
+
+
+can say:
+
+-  “SavingsAccount is a BankAccount” → Inheritance
+-  “Customer has a BankAccount”      → Composition
