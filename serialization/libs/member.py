@@ -1,11 +1,16 @@
+
 from libs.user import User
 
 class Member(User):
-    def __init__(self, pid, pname):
-        super().__init__(pid, pname)
+    def __init__(self,pid,pname,pgroup):
+        super.__init__(pid,pname,pgroup)
+        ### do the member specific stuff
 
-    def scan(self) -> bool:
+    def scan(self)->bool:
         pass
-    
-    def __str__(self):
-        return f"Member ID {self._id}\n Member name {self._name}:\n    -This member currently has {len(self._books)} books borrowed"
+
+    def borrow_book(self,pBookID)->bool:
+        pass
+
+    def return_book(self,pBookID)->bool:
+        pass

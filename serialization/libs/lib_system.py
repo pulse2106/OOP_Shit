@@ -1,3 +1,4 @@
+
 from libs.lending import Lending
 
 class LibrarySystem:
@@ -13,8 +14,8 @@ class LibrarySystem:
         self.members.append(member)
 
     def lend_book(self, book_id, member_id):
-        book = next((b for b in self.books if b.ID == book_id), None)
-        member = next((m for m in self.members if m.ID == member_id), None)
+        book = next((b for b in self.books if b.book_id == book_id), None)
+        member = next((m for m in self.members if m.member_id == member_id), None)
 
         if book and member and book.is_available:
             lending = Lending(book, member)
@@ -27,10 +28,9 @@ class LibrarySystem:
     def show_data(self):
         print("\n--- Books ---")
         for b in self.books:
-            print(b)
+            print(b.Name)
 
         print("\n--- Members ---")
-        print(f"There are {len(self.members)} registered")
         for m in self.members:
             print(m)
 
