@@ -1,0 +1,10 @@
+This is better that:
+
+| Class          | Responsibility  |
+| -------------- | --------------- |
+| Book           | Holds book data |
+| BookRepository | Storage logic   |
+| BookPrinter    | Display logic   |
+| LendingService | Lending logic   |
+
+We Can maintain/upgrade each class wihtout any carsh easily
